@@ -2,6 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import TeamApprovals from "../pages/approvals/TeamApprovals";
 import MyApprovals from "../pages/approvals/MyApprovals";
 import Transactions from "../pages/expenses/Transactions";
+import FlightBooking from "../pages/booking/FlightBooking";
 
 const AppRoutes = () => {
   return (
@@ -13,7 +14,7 @@ const AppRoutes = () => {
         path="/expense/transactions"
         element={<Transactions/>}
       />
-      <Route path="/cards" element={<h1>Cards</h1>} />
+      <Route path="/booking" element={<FlightBooking />} />
     </Routes>
   );
 };
