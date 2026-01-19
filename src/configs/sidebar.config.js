@@ -63,30 +63,32 @@ export const sidebarConfig = [
     ],
   },
   {
-    label: "Expense",
+    label: "Task 4",
     icon: FiFileText,
-    children: [
-      {
-        label: "Transactions",
-        path: "/expense/transactions",
-        children: [
-          {
-            label: "Food",
-            path: "/expense/transactions/food",
-            children: [
-              {
-                label: "Domestic",
-                path: "/expense/transactions/food/domestic",
-              },
-              {
-                label: "International",
-                path: "/expense/transactions/food/international",
-              },
-            ],
-          },
-        ],
-      },
-    ],
+    path: "/task4",
+
+    // children: [
+    //   {
+    //     label: "Transactions",
+    //     path: "/expense/transactions",
+    //     children: [
+    //       {
+    //         label: "Food",
+    //         path: "/expense/transactions/food",
+    //         children: [
+    //           {
+    //             label: "Domestic",
+    //             path: "/expense/transactions/food/domestic",
+    //           },
+    //           {
+    //             label: "International",
+    //             path: "/expense/transactions/food/international",
+    //           },
+    //         ],
+    //       },
+    //     ],
+    //   },
+    // ],
   },
 
   {

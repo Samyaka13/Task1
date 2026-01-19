@@ -5,10 +5,10 @@ import AppRoutes from './routes/AppRoutes'
 function App() {
 
   return (
-    <AppLayout>
+    // <AppLayout>
         <AppRoutes />
 
-    </AppLayout>
+    // </AppLayout>
   )
 }
 
