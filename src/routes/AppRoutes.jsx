@@ -6,6 +6,7 @@ import MyApprovals from "../pages/approvals/MyApprovals";
 import Transactions from "../pages/expenses/Transactions";
 import FlightBooking from "../pages/booking/FlightBooking";
 import Task from "../pages/Task4/Task";
+import Rtk from "../pages/Redux/rtk";
 
 const AppRoutes = () => {
   return (
@@ -17,6 +18,7 @@ const AppRoutes = () => {
         <Route path="/expense/transactions" element={<Transactions />} />
         <Route path="/booking" element={<FlightBooking />} />
         <Route path="/task4" element={<Task />} />
+        <Route path="/rtk" element={<Rtk/>} />
       </Route>
     </Routes>
   );

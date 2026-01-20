@@ -96,4 +96,8 @@ export const sidebarConfig = [
     icon: FiCreditCard,
     path: "/booking",
   },
+  {
+    label: "RTK",
+    path: "/rtk",
+  },
 ];

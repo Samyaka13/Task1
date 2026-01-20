@@ -12,8 +12,6 @@ function Task() {
                 <UserInfoCard id={6} />
                 <UserInfoCard id={7} />
                 <UserInfoCard id={8} />
-                <UserInfoCard id={9} />
-                <UserInfoCard id={10} />
             </div>
         </div>
     );
