@@ -100,4 +100,9 @@ export const sidebarConfig = [
     label: "RTK",
     path: "/rtk",
   },
+  {
+    label: "Policy",
+    icon: FiFileText,
+    path: "/policy",
+  },
 ];
